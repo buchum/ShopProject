@@ -1,13 +1,14 @@
+:root {
+    --black-color: #222222
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 13.972px;
+    font-size: 14px;
     line-height: 17px;
-}
-
-:root {
-    --black-color: #222222
+    width: 100%;
 }
 
 .header {
@@ -24,8 +25,6 @@ body {
 .header_logo {
     margin: 0 41px 0 0;
 }
-
-.header_logo_wrp {}
 
 .heder_button {
     padding: 10px 0 0 0;
@@ -53,4 +52,164 @@ body {
 .header_navugation {
     position: absolute;
 
+}
+
+.cap {
+    margin: auto;
+    width: 100%;
+    background: #F1E4E6;
+}
+
+.text_cap {
+    position: absolute;
+    left: 55.75%;
+    right: 20.69%;
+    top: 40%;
+    bottom: 86.86%;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.border {
+    position: absolute;
+    left: 54%;
+    right: 45.25%;
+    top: 41%;
+    bottom: 46.89%;
+    background: #F16D7F;
+}
+
+.cap .sub {
+    font-size: 35px;
+}
+
+.pink {
+    color: #F16D7F;
+}
+
+.content {
+    position: absolute;
+
+}
+
+puhovik {
+    position: absolute;
+}
+
+.small_baners_box {
+    margin: 50px 0;
+}
+
+.small_baners {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_baner {
+    position: relative;
+    margin: 15px 0;
+}
+
+.small_baner .image {
+    position: relative;
+}
+
+.small_baner .image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/img/contentFon.png') center center no-repeat;
+    background-size: cover;
+}
+
+.small_baner .text {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.text {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.low_text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.img_product {
+    background-color: #F7E4E2;
+
+}
+
+.shop_room {
+    display: flex;
+    padding: 20px
+}
+
+.shop_room .product {
+    margin: 10px;
+    background: #F8F8F8;
+}
+
+.shop .button_sale {
+    position: relative;
+    float: right;
+    right: 38%;
+    margin-top: 38px;
+}
+
+.button_sale .sale {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    outline: 2px solid #F26376;
+    padding: 25px 45px;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background-color: #222224;
+    margin-top: 80px;
+    height: 350px;
+}
+
+.footer_info {
+    margin: 60px;
+    display: flex;
+}
+
+.quality {
+    align-content: center;
+    margin: 100px;
+}
+
+.quality .text p {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    line-height: 24px;
+    text-align: center
+}
+
+.qua {
+     margin-left: 220px
 }
