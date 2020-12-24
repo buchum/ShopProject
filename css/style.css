@@ -69,6 +69,31 @@ a {
     background: #F1E4E6;
 }
 
+.cap__catalog {
+    width: 100%;
+    background: #F8F3F4;
+    height: 148px;
+    display: flex;
+}
+
+.cap__catalog-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cap__catalog-item .breadcrumbs__list {
+    display: flex;
+}
+
+.breadcrumbs__item {
+    padding: 4px;
+}
+
+.breadcrumbs__item:hover {
+    color: #F26376;
+}
+
 .text_cap {
     position: absolute;
     left: 55.75%;
@@ -107,6 +132,29 @@ a {
 
 puhovik {
     position: absolute;
+}
+
+.filters_item {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filters svg {
+    padding-left: 10px;
+}
+
+.shopFilters .choice {
+    display: flex;
+    margin-left: 400px;
+}
+
+.searshFilters {
+     padding-left: 20px;
+}
+
+.searshFilters svg {
+    padding-left: 8px;
 }
 
 .small_baners_box {
@@ -168,7 +216,6 @@ puhovik {
 .shop_room {
     max-width: 1140px;
     display: flex;
-    padding: 20px;
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 30px;
@@ -178,11 +225,13 @@ puhovik {
     width: 33.33%;
     padding: 5px;
     box-sizing: border-box;
+
 }
 
 .shop_room .product .image {
     background-color: #F7E4E2;
     height: 420px;
+    margin: 5px
 }
 
 
@@ -240,4 +289,8 @@ puhovik {
     width: 100%;
 }
 
-
+footer {
+    background-color: #222224;
+    height: 79px;
+    margin:
+}
