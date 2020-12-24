@@ -13,6 +13,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     width: 100%;
+    background-color: #E5E5E5;
 }
 
 a {
@@ -134,8 +135,9 @@ puhovik {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('/img/contentFon.png') center center no-repeat;
+    background: url('../img/contentFon.png') center center no-repeat;
     background-size: cover;
+
 }
 
 .small_baner .text {
@@ -212,13 +214,13 @@ puhovik {
 }
 
 
-.footer {
+.quality_fon {
     background-color: #222224;
     margin-top: 60px;
     height: 350px;
 }
 
-.footer_info {
+.quality_info {
     margin: 60px;
     display: flex;
 }
@@ -232,4 +234,9 @@ puhovik {
     color: #FBFBFB;
     font-size: 20px;
     line-height: 24px;
+}
+
+.subscribe .subscribe__fon {
+    width: 100%;
+
 }
