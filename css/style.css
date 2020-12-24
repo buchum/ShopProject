@@ -2,6 +2,10 @@
     --black-color: #222222
 }
 
+.clear {
+    clear: both;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -9,6 +13,10 @@ body {
     font-size: 14px;
     line-height: 17px;
     width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .header {
@@ -26,7 +34,7 @@ body {
     margin: 0 41px 0 0;
 }
 
-.heder_button {
+.header_menu-item .header_button {
     padding: 10px 0 0 0;
     background-color: transparent;
     border: none;
@@ -79,7 +87,7 @@ body {
     left: 54%;
     right: 45.25%;
     top: 41%;
-    bottom: 46.89%;
+    bottom: 47%;
     background: #F16D7F;
 }
 
@@ -140,56 +148,73 @@ puhovik {
     color: #fff;
 }
 
-.text {
-    font-size: 30px;
-    line-height: 36px;
-    text-align: center;
-    margin: 0 auto;
-}
-
 .low_text {
     font-size: 14px;
     line-height: 17px;
     color: #9F9F9F;
 }
 
-.img_product {
-    background-color: #F7E4E2;
+.shop {
+    text-align: center;
+}
 
+.shop .title {
+    font-size: 30px;
+    line-height: 36px;
 }
 
 .shop_room {
+    max-width: 1140px;
     display: flex;
-    padding: 20px
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .shop_room .product {
-    margin: 10px;
-    background: #F8F8F8;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
 }
 
-.shop .button_sale {
-    position: relative;
-    float: right;
-    right: 38%;
-    margin-top: 38px;
+.shop_room .product .image {
+    background-color: #F7E4E2;
+    height: 420px;
 }
 
-.button_sale .sale {
+
+.shop_room .product .subtext {
+    padding: 5px;
+    text-align: left;
+}
+
+.shop_room .product .subtext_link {
+    color: #222222;
+}
+
+.shop_room .product .subtext_link:hover {
+    color: #F26376;
+}
+
+.button_sale {
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
     outline: 2px solid #F26376;
-    padding: 25px 45px;
+    padding: 30px 50px;
+    display: inline-block;
 }
 
-.clear {
-    clear: both;
+.button_sale:hover {
+    background-color: #F26376;
+    color: #ffffff;
 }
+
 
 .footer {
     background-color: #222224;
-    margin-top: 80px;
+    margin-top: 60px;
     height: 350px;
 }
 
@@ -199,17 +224,12 @@ puhovik {
 }
 
 .quality {
-    align-content: center;
     margin: 100px;
+    text-align: center;
 }
 
 .quality .text p {
     color: #FBFBFB;
-    font-size: 19.96px;
+    font-size: 20px;
     line-height: 24px;
-    text-align: center
-}
-
-.qua {
-     margin-left: 220px
 }
