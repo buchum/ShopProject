@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width; initial-scale=1">
-    <title>Магазин</title>
+    <title>Регистрация</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -78,162 +78,82 @@
 
         </div>
     </header>
-
-    <main class="main">
-        <section class="cap">
+    <main class="main ">
+        <section class="cap__catalog">
             <h2 class="visually__hidden">cap</h2>
-            <div class="content">
-                <img src="img/upIcon.png" alt="poto">
-            </div>
-            <div class="puhovik">
-                <img src="img/puhovik.png" alt="puhovik">
-            </div>
-            <div class="border">
-            </div>
-            <div class="text_cap">
-                <h2>THE BRAND</h2>
-                <p class="sub">OF LUXERIOUS <span class="pink">FASHION</span></p>
+            <div class="cap__catalog-item container">
+                <div class="poster pink">
+                    <span>registration</span>
+                </div>
+
             </div>
         </section>
-
-        <section class="small_baners_box">
-            <h2 class="visually__hidden">small_baners_box</h2>
-            <div class="small_baners container">
-                <div class="small_baner">
-                    <div class="image">
-                        <img src="img/content1.png" alt="">
+        <section class="registration container">
+            <h2 class="visually__hidden">registration</h2>
+            <div class="form__registration">
+                <form action="#" method="post">
+                    <fieldset class="fieldset">
+                        <label for="name" class="label">Your Name</label>
+                        <br>
+                        <input type="text" required placeholder="Name" id="name">
+                        <br>
+                        <input type="text" required placeholder="Last Name">
+                    </fieldset>
+                    <fieldset class="labels-checkbox">
+                        <label>
+                            <input type="radio" name="gender" value="male" checked> Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female"> Female
+                        </label>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <label for="email" class="label">Login details</label>
+                        <br>
+                        <input type="email" id="email" placeholder="user@email.ru" required>
+                        <br>
+                        <input type="password" placeholder="password" required>
+                        <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    </fieldset>
+                    <div class="buttons">
+                        <button class="form_send" type="submit">JOIN NOW <span>&nbsp;&nbsp;&nbsp;→</span></button>
                     </div>
-                    <div class="text">
-                        <p>30% OFF<br><span class="pink">FOR WOMEN</span></p>
-                    </div>
-                </div>
-                <div class="small_baner">
-                    <div class="image">
-                        <img src="img/content2.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>HOT DEAL<br><span class="pink">FOR MEN</span></p>
-                    </div>
-                </div>
-                <div class="small_baner">
-                    <div class="image">
-                        <img src="img/content3.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>NEW ARRIVALS<br><span class="pink">FOR KIDS</span></p>
-                    </div>
-                </div>
+                </form>
             </div>
+            <div class="text__advantage">
+                <h2>LOYALTY HAS ITS PERKS</h2>
+                <br>
+                <p>Get in on the loyalty program where you can earn points and<br> unlock serious perks. Starting with these as soon as you join:</p>
 
-            <div class="small_baners container">
-                <div class="small_baner">
-                    <div class="image">
-                        <img src="img/content4.png" alt="">
-                    </div>
-                    <div class="text">
-                        <p>LUXIROUS & TRENDY<br><span class="pink"> ACCESORIES</span></p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="shop">
-            <h2 class="visually__hidden">shop</h2>
-            <div class="title">
-                <p>Fetured Items<br><span class="low_text">Shop for items based on what we featured in this week</span></p>
-            </div>
-            <div class="shop_room container">
-                <div class="product">
-                    <div class="image">
-                        <img src="img/product1.png" alt="">
-                    </div>
-                    <div class="subtext">
-                        <h3><a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a></h3>
-                        <p class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.<br><br><span class="pink">52.00$</span></p>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="image">
-                        <img src="img/product2.png" alt="">
-                    </div>
-                    <div class="subtext">
-                        <a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a>
-                        <br><br><span class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span><br><br><span class="pink">52.00$</span>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="image">
-                        <img src="img/product3.png" alt="">
-                    </div>
-                    <div class="subtext">
-                        <a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a>
-                        <br><br><span class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span><br><br><span class="pink">52.00$</span>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="image">
-                        <img src="img/product4.png" alt="">
-                    </div>
-                    <div class="subtext">
-                        <a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a>
-                        <br><br><span class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span><br><br><span class="pink">52.00$</span>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="image">
-                        <img src="img/product5.png" alt="">
-                    </div>
-                    <div class="subtext">
-                        <a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a>
-                        <br><br><span class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span><br><br><span class="pink">52.00$</span>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="image">
-                        <img src="img/product6.png" alt="">
-                    </div>
-                    <div class="subtext">
-                        <a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a>
-                        <br><br><span class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span><br><br><span class="pink">52.00$</span>
-                    </div>
-                </div>
-            </div>
-            <a class="button_sale sale" href="catalog.html">Browse All Product</a>
-        </section>
-
-        <section class="quality_fon ">
-            <h2 class="visually__hidden">quality</h2>
-            <div class="quality_info">
-                <div class="quality">
-                    <img class="qua" src="img/qua1.svg" alt="">
-                    <div class="text"><br>
-                        <p>Free Delivery<br><br><span class="low_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></p>
-                    </div>
-                </div>
-                <div class="quality">
-                    <img class="qua" src="img/qua3.svg" alt="">
-                    <div class="text"><br>
-                        <p>Free Delivery<br><br><span class="low_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></p>
-                    </div>
-                </div>
-                <div class="quality">
-                    <img class="qua" src="img/qua2.svg" alt="">
-                    <div class="text"><br>
-                        <p>Free Delivery<br><br><span class="low_text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</span></p>
-                    </div>
-                </div>
+                <p><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black" />
+                    </svg>15% off welcome offer
+                </p>
+                <p><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black" />
+                    </svg>Free shipping, returns and exchanges on all orders
+                </p>
+                <p><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black" />
+                    </svg>$10 off a purchase on your birthday
+                </p>
+                <p><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black" />
+                    </svg>Early access to products
+                </p>
+                <p><svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.8035 0H18.0904C17.8502 0 17.6222 0.111827 17.4752 0.303176L7.3702 13.2826L2.52481 7.05754C2.45151 6.96318 2.35808 6.88688 2.25153 6.83438C2.14499 6.78187 2.0281 6.75451 1.90963 6.75437H0.196467C0.032258 6.75437 -0.0584248 6.94572 0.0420614 7.07494L6.75503 15.6981C7.06874 16.1006 7.67166 16.1006 7.98782 15.6981L19.9579 0.318087C20.0584 0.191349 19.9677 0 19.8035 0Z" fill="black" />
+                    </svg>Exclusive offers & rewards
+                </p>
             </div>
         </section>
         <section class="subscribe">
             <h2 class="visually__hidden">subscribe</h2>
             <img class="subscribe__fon" src="img/backgrounIndexDown.jpg" alt="back">
-
         </section>
-    </main>
 
+    </main>
     <footer class="footer">
 
     </footer>
-</body>
-
-</html>
+</body></html>
