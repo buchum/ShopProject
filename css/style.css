@@ -13,7 +13,18 @@ body {
     font-size: 14px;
     line-height: 17px;
     width: 100%;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
+}
+
+.visually__hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
 }
 
 a {
@@ -82,6 +93,15 @@ a {
     align-items: center;
 }
 
+.cap__catalog-item .poster {
+    text-transform: uppercase;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+}
+
 .cap__catalog-item .breadcrumbs__list {
     display: flex;
 }
@@ -89,6 +109,8 @@ a {
 .breadcrumbs__item {
     padding: 4px;
 }
+
+
 
 .breadcrumbs__item:hover {
     color: #F26376;
@@ -125,6 +147,75 @@ a {
     color: #F16D7F;
 }
 
+.registration {
+    justify-content: flex;
+    display: flex;
+}
+
+.form__registration {
+    margin: 80px 0;
+    width: 360px;
+}
+
+.labels-checkbox {
+    margin: 20px 0;
+}
+
+
+.fieldset input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    margin-left: 1px;
+    border: 1px solid #A4A4A4;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.fieldset input:active,
+.fieldset input:focus {
+    border: 1px solid rgba(255,192,203,0.7);
+}
+
+.fieldset p {
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+.buttons {
+    margin-top: 60px;
+}
+
+.buttons .form_send {
+    background: #F16D7F;
+    color: #ffffff;
+    border: 2px solid #F16D7F;
+    padding: 15px 30px;
+    display: inline-block;
+}
+
+.buttons .form_send:hover {
+    background: #ffffff;
+    color: #F16D7F;
+}
+
+.buttons .form_send span {
+    font-family: "Arial", sans-serif;
+    font-size: 22px;
+}
+
+.text__advantage {
+    width: 652px;
+    height: 334px;
+    margin-left: auto;
+    margin-top: 80px;
+}
+
+.text__advantage p {
+    margin: 10px;
+}
+
 .content {
     position: absolute;
 
@@ -144,13 +235,17 @@ puhovik {
     padding-left: 10px;
 }
 
+.text__advantage svg {
+    padding-right: 10px;
+}
+
 .shopFilters .choice {
     display: flex;
     margin-left: 400px;
 }
 
 .searshFilters {
-     padding-left: 20px;
+    padding-left: 20px;
 }
 
 .searshFilters svg {
@@ -262,6 +357,17 @@ puhovik {
     color: #ffffff;
 }
 
+.pagination {
+    display: flex;
+    border-radius: 1px solid #EBEBEB;
+    justify-content: center;
+}
+
+.pagination a {
+    margin: 10px;
+    color: #5D5D5D;
+
+}
 
 .quality_fon {
     background-color: #222224;
@@ -293,4 +399,24 @@ footer {
     background-color: #222224;
     height: 79px;
     margin:
+}
+
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .main {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .footer {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
 }
