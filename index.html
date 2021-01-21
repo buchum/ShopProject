@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Магазин</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 
 <body>
     <header class="header">
-        <div class="container header_container">
+        <div class=" header_container container">
             <div class="header_logo_wrp">
                 <a href="index.html"><img class="header_logo" src="img/logo.svg" alt="logo" width="44" height="38"></a>
                 <svg width="27" height="28" viewBox="0 0 27 28" xmlns="http://www.w3.org/2000/svg">
@@ -22,12 +23,12 @@
             </div>
             <ul class="header_menu-list">
                 <li class="header_menu-item">
-                    <button class="header_button drop">
+                    <button class="header_button drop" id="open_menu">
                         <svg width="32" height="23" viewBox="0 0 32 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" fill="#E8E8E8" />
                         </svg>
                     </button>
-                    <nav class="header_navugation">
+                    <nav class="header_navigation" id="navigation">
                         <p class="header_navugation-title">Menu</p>
                         <br>
                         <ul>
@@ -82,13 +83,8 @@
     <main class="main">
         <section class="cap">
             <h2 class="visually__hidden">cap</h2>
-            <div class="content">
-                <img src="img/upIcon.png" alt="poto">
-            </div>
             <div class="puhovik">
                 <img src="img/puhovik.png" alt="puhovik">
-            </div>
-            <div class="border">
             </div>
             <div class="text_cap">
                 <h2>THE BRAND</h2>
@@ -124,7 +120,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="small_baners container">
                 <div class="small_baner">
                     <div class="image">
@@ -149,6 +144,7 @@
                     </div>
                     <div class="subtext">
                         <h3><a class="subtext_link" href="#">ELLERY X M'O CAPSULE</a></h3>
+                        <br>
                         <p class="low_text">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.<br><br><span class="pink">52.00$</span></p>
                     </div>
                 </div>
@@ -234,6 +230,4 @@
     <footer class="footer">
 
     </footer>
-</body>
-
-</html>
+</body></html>
